@@ -1,4 +1,4 @@
-appdirs==1.4.2
+appdirs==1.4.3
 chardet==2.3.0
 cssselect==1.0.0
 cssutils==1.0.1

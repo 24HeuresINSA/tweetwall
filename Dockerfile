@@ -14,7 +14,5 @@ RUN pip3 install -r requirements.txt
 COPY . /app
 VOLUME /app/staticfiles
 
-ENV DATABASE_URL postgres://postgresql:postgresql@db:5432/proman
-
-RUN chmod +x /app/bash/run-prod.sh
-CMD /app/bash/run-prod.sh
+RUN chmod +x /app/docker/app/docker-entrypoint.sh
+CMD /app/docker/app/docker-entrypoint.sh
