@@ -27,7 +27,7 @@ SECRET_KEY = '#br1ii4ij3fz3s+^ip$#m7eqjixlfgsqi*fm^*5&reae(!4dg8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['tweetwall.bde-insa-lyon.fr', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['tweetwall.int.24heures.org', '127.0.0.1', 'localhost']
 
 
 # Application definition
