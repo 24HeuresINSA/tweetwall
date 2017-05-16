@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(rgba(60, 18, 28, 0.45), rgba(60, 18, 28, 0.45)), url(background.png);
+  background: linear-gradient(rgba(60, 18, 28, 0.45), rgba(60, 18, 28, 0.45)), url(background.jpg);
   background-size: cover;
   overflow: hidden;
   height: 100vh;
@@ -19,7 +19,7 @@ body {
 #tweet {
   margin: 0 auto;
   position: absolute;
-  top: 17vh;
+  top: 22vh;
   left: 10vw;
   right: 10vw;
   bottom: 15vh; }
